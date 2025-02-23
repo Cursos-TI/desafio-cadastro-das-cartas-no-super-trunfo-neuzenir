@@ -15,7 +15,7 @@ int main() {
        // Cadastro das Cartas:
     
     //Cadastro da carta 1.
-    printf ("\nCadastre a Carta 1: \n");
+    printf("\nCadastre a Carta 1: \n");
     printf("Digite o estado (A-H): \n"); //Digitar uma letra de A a H.
     scanf("%c", &estado1);
 
@@ -39,7 +39,7 @@ int main() {
 
 
      //Cadastro da carta 2.
-     printf ("\nCadastre a Carta 2: \n");
+     printf("\nCadastre a Carta 2: \n");
      printf("Digite o estado (A-H): \n"); //Digitar uma letra de A a H.
      scanf(" %c", &estado2);
  
@@ -63,9 +63,9 @@ int main() {
 
       //Calculo da densidade e do PIB per Capta.
     densidade1 = (float) populacao1 / area1;
-    densidade2 = populacao2 / area2;
+    densidade2 = (float)populacao2 / area2;
     percapta1 = pib1 / (float) populacao1;
-    percapta2 = pib2 / populacao2;
+    percapta2 = pib2 / (float)populacao2;
 
     // Imprime na tela as informações cadastradas.
     printf ("\nDados da Carta 1: \n");
